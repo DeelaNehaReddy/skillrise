@@ -51,7 +51,6 @@ function MessagingPage() {
   }, [location.state]);
 
 
-  // --- Audio Recording & Upload ---
   const audioChunksRef = useRef([]);
 
   const startRecording = async () => {
